@@ -1,4 +1,4 @@
 # Thesis-Project-Emotion-Embeddings
 Two experiments testing the effect of training data restriction on the accuracy of StrengthNet (Liu et al., 2021) and Zhu et al. (2019)
 
-The two experiments are separated in their folders. Note that the models based on Zhu et al. (2019) require high amounts of RAM.
+The three different models can be found in their respective three folders. The code to train StrengthNet can be found in StrengthNet Scripts/train.py. This folder also contains the trained StrengthNet models. The code to train both the Zhu models as well as the lexical diversity task model can be found in the Rank_SVM.ipnynb file. In order to train the models, the ESD must be file structure preprocessed by running file_mover.py. The ESD dataset itself can be found here: [ESD](https://github.com/HLTSingapore/Emotional-Speech-Data). Test data files for all SVM models are included in the Test Data SVM subfolder as four_{emotion}.py for all emotion categories and for the StrengthNet model as audio files in sNet Test. 
